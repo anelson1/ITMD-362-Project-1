@@ -31,12 +31,16 @@
     </section>
     <section id="payment">
       <form action="/done" id="payform">
-        <label for="types">Shipping Types</label>
-        <select id="types">
-          <option value="standard">Standard</option>
-          <option value="express">Express (+$10)</option>
-          <option value="superexpress">Super Express (+$15)</option>
-        </select>
+        <label for="cname">Name on Card</label>
+        <input type="text" id="cname" name="cardname"/>
+        <label for="ccnum">Credit card number</label>
+        <input type="text" id="ccnum" name="cardnumber"/>
+        <label for="expmonth">Exp Month</label>
+        <input type="text" id="expmonth" name="expmonth"/>
+        <label for="ccv">CCV</label>
+        <input type="number" id="ccv" name="ccv">
+        <label for="sameaddr">Shipping Address Same as Billing</label>
+        <input type="checkbox" id="sameaddr" checked="checked" name="sameaddr"/>
         <input type="submit" value="Continue"/>
       </form>
     </section>

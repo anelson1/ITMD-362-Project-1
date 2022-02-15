@@ -16,6 +16,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 main {
   margin: 1em;
   background-color: #563379;
+  padding: 1em;
 }
 
 h1 {
@@ -80,6 +81,11 @@ input, select {
   box-sizing: border-box;
   background-color: #9B82B4;
 }
+
+#payform > #sameaddr {
+  width: auto;
+}
+
 
 input:hover {
   background-color: #625C9A;
