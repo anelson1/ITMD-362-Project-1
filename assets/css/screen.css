@@ -7,18 +7,42 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* Begin site styles below */
+ /* color pallette from http://paletton.com/#uid=5440u0kkamz9Fz7eSrQpuhfuWbN*/
+html{
+  background-color: #563379;
+}
 
 main {
   margin: 1em;
+  background-color: #563379;
 }
 
 h1 {
   font-size: 3em;
   text-align: center;
+  background-color: #3F397D;
+  color: #8D89B9;
 }
 
 h2 {
   font-size: 2em;
+  margin-bottom: 0.2em;
+} 
+
+nav {
+  text-align: center;
+  margin: auto;
+  background-color: #3F397D;
+  padding: 0.5em;
+}
+a{
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+a:hover {
+  color: #8D89B9;
 }
 
 p {
@@ -26,7 +50,38 @@ p {
 }
 
 footer {
-  background-color: gray;
+  background-color: #3F397D;
   color: white;
   padding: 1em;
+}
+
+#cartlist > li {
+  list-style-type: circle;
+  margin: 1em;
+}
+
+#cart {
+  border: 0.5em solid #3A195D;
+  padding: 0.5em;
+  text-align: center;
+  color: #9B82B4;
+}
+
+input, select {
+  width: 100%;
+  padding: 1em;
+  margin: 0.5em;
+  display: inline-block;
+  border: 0.1em solid #3F397D;
+  border-radius: 0.2em;
+  box-sizing: border-box;
+  background-color: #9B82B4;
+}
+
+input:hover {
+  background-color: #625C9A;
+}
+section {
+  margin: 1em;
+  color: #9B82B4;
 }

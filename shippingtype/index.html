@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Shipping Tyle - [storename]</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+    <link rel="stylesheet" href="/assets/css/screen.css" />
+  </head>
+</html>
+<body>
+  <header id="header">
+    <h1>[Store Name Here]</h1>
+</header>
+  <nav id="navigation">
+    <ul id="navlist">
+      <li>
+        <a href="#null">Home</a>
+        <a href="#null">Hot Products</a>
+        <a href="#null">About Us</a>
+      </li>
+    </ul>
+  </nav>
+  <main id="content">
+    <section id="cart">
+      <h2>Cart</h2>
+      <ul id="cartlist">
+        <li>1x 10 pack pens - $10.00</li>
+        <li>2x TI-84 Calculator - $203.22</li>
+        <li>1x Extreme Coding: How to Write HTML and Not Die by George McBanes - $20.32</li>
+      </ul>
+    </section>
+    <section id="shippingtype">
+      <form action="/payment" id="payform">
+        <label for="types">Shipping Types</label>
+        <select id="types">
+          <option value="standard">Standard</option>
+          <option value="express">Express (+$10)</option>
+          <option value="superexpress">Super Express (+$15)</option>
+        </select>
+        <input type="submit" value="Continue"/>
+      </form>
+    </section>
+  </main>
+</body>
