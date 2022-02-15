@@ -7,8 +7,9 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* Begin site styles below */
- /* color pallette from http://paletton.com/#uid=5440u0kkamz9Fz7eSrQpuhfuWbN*/
-html{
+/* color pallette from http://paletton.com/#uid=5440u0kkamz9Fz7eSrQpuhfuWbN*/
+
+#content {
   background-color: #563379;
 }
 
@@ -27,7 +28,7 @@ h1 {
 h2 {
   font-size: 2em;
   margin-bottom: 0.2em;
-} 
+}
 
 nav {
   text-align: center;
@@ -35,12 +36,14 @@ nav {
   background-color: #3F397D;
   padding: 0.5em;
 }
-a{
+
+a {
   color: #FFFFFF;
   text-decoration: none;
   margin-left: 0.5em;
   margin-right: 0.5em;
 }
+
 a:hover {
   color: #8D89B9;
 }
