@@ -19,16 +19,22 @@ main {
   padding: 1em;
 }
 
-h1 {
-  font-size: 3em;
+#header {
   text-align: center;
   background-color: #3F397D;
   color: #8D89B9;
 }
-
+h1 {
+  font-size: 3em;
+  margin-bottom: 0.2em;
+}
 h2 {
   font-size: 2em;
   margin-bottom: 0.2em;
+}
+
+h3 {
+  font-size: 1em;
 }
 
 nav {
