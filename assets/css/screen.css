@@ -96,6 +96,11 @@ input[type="submit"] {
   width: auto;
 }
 
+#error {
+  color: #FF0000;
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
 
 input:hover {
   background-color: #625C9A;
